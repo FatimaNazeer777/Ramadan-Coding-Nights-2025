@@ -1,0 +1,19 @@
+# Welcome message at the start
+welcome_message: "Hello! How can I help you."
+
+# Default chat profile
+user_env: false
+
+# Authentication
+auth:
+  # Enable authentication
+  enabled: true
+  # OAuth providers config
+  providers:
+    - type: basic
+      # Allow users to sign up
+      sign_up: true
+      # List of authorized users
+      users:
+        - username: admin
+          password: admin
